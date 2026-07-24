@@ -1,25 +1,63 @@
 aid: cardmunch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardmunch.png
 name: Cardmunch
-description: Cardmunch is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: CardMunch was a mobile business-card scanning service that used human transcription
+  to turn photographed business cards into contact records on iOS. Founded as a Y Combinator
+  and 500 Global backed startup, it was acquired by LinkedIn in January 2011 for a reported
+  sum under $3 million and operated as a free LinkedIn-branded iPhone app. LinkedIn discontinued
+  the app on July 11, 2014, migrating its users to Evernote's business-card scanning feature.
+  CardMunch never published a public developer program, API, or SDK, and the cardmunch.com
+  domain was re-registered by an unrelated party in April 2016 and now hosts an affiliate
+  content blog. This profile is retained as a historical record; there is no API surface to
+  enrich.
 url: https://raw.githubusercontent.com/api-evangelist/cardmunch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-acquired-by: linkedin
+x-acquired-date: '2011-01-26'
+x-shutdown-date: '2014-07-11'
+x-domain-status: reassigned
+x-domain-note: cardmunch.com was re-registered 2016-04-17 (NameCheap / WPX hosting) by an
+  unrelated party and now serves a WordPress affiliate blog reviewing other business-card
+  scanner apps. It is NOT the CardMunch company and is deliberately not wired as a Website
+  pointer.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Acquired
+- Business Cards
+- Contacts
+- Mobile
+- OCR
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://cardmunch.com
+common: []
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
