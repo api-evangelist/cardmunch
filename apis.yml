@@ -33,6 +33,9 @@ description: CardMunch was a mobile business-card scanning service that used hum
   content blog. This profile is retained as a historical record; there is no API surface to
   enrich.
 url: https://raw.githubusercontent.com/api-evangelist/cardmunch/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "CardMunch never published a public developer program, API, or SDK, and the cardmunch.com domain was re-registered by an unrelated party in April 2016 and now hosts an affiliate content blog."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
